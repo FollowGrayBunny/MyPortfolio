@@ -1,0 +1,356 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1A103D;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1A103D;
+  }
+  
+  .logo-img {
+    height: 100px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #FF4D94;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #FFB84D;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #8C8EFF, #FF4D94);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero .btn {
+    background: #FF4D94;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #FFB84D;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 50px 20px;
+  }
+  
+  .project-card {
+    background: #282048;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card h3 {
+    color: #FF4D94;
+  }
+ 
+  .btn-project {
+    display: inline-block;
+    background: #FF4D94;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  
+ /* Carousel delle Skills */
+.skills-carousel {
+  text-align: center;
+  padding: 50px 20px;
+  background: #1A103D;
+  color: #FFB84D;
+}
+
+.skills-carousel h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 150px; /* Dimensione del logo */
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  filter: invert(100%);
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+.carousel-controls {
+  margin-top: 20px;
+}
+
+.carousel-controls button {
+  background: #FF4D94;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.carousel-controls button:hover {
+  background: #FFB84D;
+}
+
+/* Author Section */
+.author-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #1A103D, #282048);
+  color: #fff;
+}
+
+.author-section h2 {
+  font-size: 2.5rem;
+  color: #FFB84D;
+  margin-bottom: 20px;
+}
+
+.author-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.author-info {
+  flex: 1;
+  max-width: 400px;
+  text-align: left;
+}
+
+.author-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #FF4D94;
+}
+
+.author-info p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.btn-amazon {
+  display: inline-block;
+  background: #FF4D94;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-amazon:hover {
+  background: #FFB84D;
+}
+
+.author-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.author-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Contact Section*/
+.contacts h3{
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+
+/* Contacts - General */
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  color: #FFB84D;
+}
+
+.contact h2 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Email Container*/
+.email-container {
+  display: inline-block;
+  padding: 15px 200px;
+  background: #282048;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.3s;
+}
+
+.email-container:hover {
+  background: #FF4D94; /* Change Bg coloro when mouse hover */
+}
+
+/* Placeholder visibile */
+.email-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+
+/* Hiding Email */
+.email-address {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+}
+
+/* Mostra l'indirizzo email al passaggio del mouse */
+.email-container:hover .email-placeholder {
+  opacity: 0; /* Nasconde il placeholder */
+}
+
+.email-container:hover .email-address {
+  opacity: 1; /* Mostra l'email */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1A103D;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/*---------------------------------- Other Pages-------------------------------------*/
+
+/* Project Page */
+.project-page {
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+.project-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FF4D94;
+}
+
+.project-page p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.project-image img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-tech {
+  margin-top: 20px;
+}
+
+.project-tech h3 {
+  color: #FFB84D;
+}
+
+.project-tech ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-tech li {
+  background: #282048;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.back-btn {
+  display: inline-block;
+  background: #FF4D94;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.back-btn:hover {
+  background: #FFB84D;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Developer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="assets/logo.gif" alt="Logo" class="logo-img">
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#author">Author</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h1>Welcome to my portfolio</h1>
+        <p>I'm a developer, writer and passionate about technology, computer science, robotics, AI and tech-design.</p>
+      <a href="#portfolio" class="btn">Discover my work</a>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project 0 - CPUs-T </h3>
+          <p>A simple compiled python program to show the core temperature of the CPU without opening the shell for FreeBSD.</p>
+          <a href="prjs/project0.html" class="btn-project">Show more</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 1 - JBOS </h3>
+          <p>It's a version of DOS (Disk Operating System) running on the browser written in JavaScript.</p>
+          <a href="prjs/project1.html" class="btn-project">Show more</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2 - Fermium Chain</h3>
+          <p>A small prototype of blockchain in evolution.</p>
+          <a href="prjs/project2.html" class="btn-project">Show more</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 3 - BioHoardzard</h3>
+          <p>My first game inspired by Biohazard, Resident Evil.</p>
+          <a href="prjs/project3.html" class="btn-project">Show more</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 4 - Shelter</h3>
+          <p>An operating system created from scratch.</p>
+          <a href="prjs/project4.html" class="btn-project">Show more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-carousel" class="skills-carousel">
+      <h2>My Skills</h2>
+      <div class="carousel-container">
+        <img src="assets/angular.svg" alt="Angular" class="carousel-image active">
+        <img src="assets/c.svg" alt="C" class="carousel-image">
+        <img src="assets/canva.svg" alt="Canva" class="carousel-image">
+        <img src="assets/cplusplus.svg" alt="C PLUS PLUS" class="carousel-image">
+        <img src="assets/css3.svg" alt="CSS 3" class="carousel-image">
+        <img src="assets/html5.svg" alt="HTML 5" class="carousel-image">
+        <img src="assets/javascript.svg" alt="Javascript" class="carousel-image">
+        <img src="assets/linux.svg" alt="Linux" class="carousel-image">
+        <img src="assets/nodejs.svg" alt="Node.js" class="carousel-image">
+        <img src="assets/react.svg" alt="React" class="carousel-image">
+        <img src="assets/rust.svg" alt="Rust" class="carousel-image">
+        <img src="assets/solana.svg" alt="Solana" class="carousel-image">
+        <img src="assets/tsnode.svg" alt="TypeScript" class="carousel-image">
+        <img src="assets/vuejs.svg" alt="Vuejs" class="carousel-image">
+        <img src="assets/bsd.svg" alt="Bsd" class="carousel-image">
+        <img src="assets/jupyter.svg" alt="Jupiter" class="carousel-image">
+        <img src="assets/python.svg" alt="Python" class="carousel-image">
+        <img src="assets/arduino.svg" alt="Arduino" class="carousel-image">
+        <img src="assets/godotengine.svg" alt="Godot Engine" class="carousel-image">
+      </div>
+      <div class="carousel-controls">
+        <button class="prev-btn"><<</button>
+        <button class="next-btn">>></button>
+      </div>
+    </section>
+    
+
+       <!-- Author Section -->
+    <section id="author" class="author-section">
+      <h2>Discover my books</h2>
+      <div class="author-container">
+        <div class="author-info">
+          <h3>My work as a writer</h3>
+          <p>I'm also a writer passionate about Horror, Fantasy and Sci-Fi. Discover my works on Amazon and immerse yourself in my stories!</p>
+          <a href="https://www.amazon.com/stores/Ivan-Toselli/author/B0DNXY9774" target="_blank" class="btn-amazon">
+            Go to my amazon profile
+          </a>
+        </div>
+        <div class="author-image">
+        <a href="https://www.amazon.com/AKKARD-Keys-Yilion-Ivan-Toselli-ebook/dp/B0DNRMXJWQ"><img src="assets/Cover0.jpg" alt="Akkard Cover"></a>  
+        </div>
+        <div class="author-image">
+        <a href="https://www.amazon.com/DARK-LANDS-Night-Ivan-Toselli-ebook/dp/B0DQ9FCPCY"><img src="assets/Cover1.jpg" alt="Dark Lands: The Night of Raehn"></a>  
+        </div>
+      </div>
+    </section>
+      
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h3 class="contacts">Contacts</h3>
+        <div class="email-container">
+          <span class="email-placeholder">(@_@)</span>
+          <span class="email-address"><a href="mailto:ivan.toselli.work@gmail.com">ivan.toselli.work@gmail.com</a></span>
+        </div>
+        <div class="email-container">
+          <span class="email-placeholder">(^\_/^)</span>
+          <span class="email-address"><a href="https://github.com/FollowGrayBunny">https://github.com/FollowGrayBunny</a></span>
+        </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 - Ivan Toselli</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

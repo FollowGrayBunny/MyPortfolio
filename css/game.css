@@ -1,0 +1,36 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: #000;
+}
+
+.div-game-style{
+    margin: 0;
+    overflow: hidden;
+    background: #3a2456;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #startButton, #stopButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #3a2456;
+    background: #FF4D94;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 10px 10px;
+  }
+  #startButton:hover, #stopButton:hover {
+    background: #FFB84D;
+  }
