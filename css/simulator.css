@@ -1,0 +1,25 @@
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.simulation-info {
+    background-color: #560365;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.simulation-legend {
+    background-color: #282048;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
