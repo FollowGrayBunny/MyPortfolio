@@ -316,6 +316,101 @@ body {
   font-size: 0.9rem;
 }
 
+/* Sezione Carousel Post */
+.post-carousel {
+  padding: 50px 20px;
+  text-align: center;
+  background: #1A103D;
+  color: #fff;
+}
+
+.post-carousel h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FFB84D;
+}
+
+/* Wrapper e Track */
+.post-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-carousel-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Card dei Post */
+.post-item {
+  flex: 0 0 300px; /* Ogni post ha larghezza fissa */
+  background: #282048;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.post-item h3 {
+  font-size: 1.2rem;
+  color: #FF4D94;
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.btn-post {
+  display: inline-block;
+  background: #FF4D94;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.btn-post:hover {
+  background: #FFB84D;
+}
+
+/* Pulsanti del Carousel Post */
+.post-carousel-btn {
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
+  background: transparent; 
+  color: #FF4D94;
+  font-weight: bold;
+  font-size: 30px;
+  border: 1px solid #FF4D94;
+  padding: 10px 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post-carousel-btn:hover {
+  background: #FFB84D;
+}
+
+.post-prev-btn {
+  left: -40px;
+}
+
+.post-next-btn {
+  right: -40px;
+}
+
+
 /*---------------------------------- Other Pages-------------------------------------*/
 
 /* Project Page */
